@@ -10,15 +10,15 @@ Each project is judged by the presentation, methodology, and written report. Tea
 
 This semester’s Data Challenge is centered around statistical consulting. Statisticians are often asked to work in consulting roles on academic and business problems (for example, UW–Madison’s [Statistical Consulting group](https://stat.wisc.edu/statistical-consulting/)), and in this challenge, you will step into that role.
 
-You will act as a consultant for a business owner preparing to open a new restaurant. Using data from 6,990,280 reviews and 150,346 businesses across 11 metropolitan areas, your task is to help the owner make informed, evidence-based decisions before and after opening.
+You will act as a consultant for a business owner preparing to open a new business. Using data from 6,990,280 reviews and 150,346 businesses across 11 metropolitan areas, your task is to help the owner make informed, evidence-based decisions before and after opening.
 
-Rather than focusing on a single question, this challenge is designed to reflect the kind of decisions consultants actually face: identifying which business attributes are most likely to matter, making predictions about post-opening performance, and communicating recommendations clearly to a non-technical client. In the final stage, you will translate your analysis into a concise dashboard, choosing the plots and metrics that best capture what a restaurant owner should pay attention to.
+Rather than focusing on a single question, this challenge is designed to reflect the kind of decisions consultants actually face: identifying which business attributes are most likely to matter, making predictions about post-opening performance, and communicating recommendations clearly to a non-technical client. In the final stage, you will translate your analysis into a concise dashboard, choosing the plots and metrics that best capture what a business owner should pay attention to.
 
 This challenge emphasizes not only statistical analysis, but also prioritization, interpretation, and communication — all core parts of doing statistics in practice.
 
 ## Problem Statement
 
-You will act as a data consultant for a business owner preparing to open a new restaurant. Using a comprehensive business and customer review dataset comprising 5 JSON files containing close to 7 million reviews and 150 thousand businesses across multiple metropolitan areas, your task is to help the owner make informed, evidence-based decisions before and after their grand opening.
+You will act as a data consultant for a business owner preparing to open a new business. Using a comprehensive business and customer review dataset comprising 5 JSON files containing close to 7 million reviews and 150 thousand businesses across multiple metropolitan areas, your task is to help the owner make informed, evidence-based decisions before and after their grand opening.
 
 
 ### Part 1: The Client Presentation & Dashboard (Presentation)
@@ -31,18 +31,24 @@ Your dashboard is strictly constrained to:
 
 - A maximum of 5 key metrics that you believe are most helpful to business owners
 
-What to analyze for your presentation: What attributes do successful businesses share? You must decide exactly what information is most critical for a restaurant owner to monitor to "do the right things." We recommend comparing businesses with similar characteristics (e.g., location, price point, or cuisine) to isolate the specific attributes that correlate with higher survival rates and better reviews.
+What to analyze for your presentation: What attributes do successful businesses share? You must decide exactly what information is most critical for a business owner to monitor to be successful. We recommend comparing businesses with similar characteristics to isolate the specific attributes that correlate with higher survival rates and better reviews.
 
 Alongside the dashboard, your presentation must provide a clear statistical justification explaining why you chose to keep those specific plots and numbers over all other possibilities. 
 
 ### Part 2: The Predictive Component
 To back up your consulting advice with rigorous statistics, you will also complete a predictive modeling task.
 
-You will be provided with a masked portion of the business sub-dataset where the closure status (whether the restaurant is currently open or permanently closed) has been hidden. Your task is to build a model to predict if these specific restaurants have closed down.
+You will be provided with a masked portion of the business sub-dataset where the closure status (whether the business is currently open or permanently closed) has been hidden. Your task is to build a model to predict if these specific businesses have closed down.
 
 ### Evaluation & Final Grading
 Your final submission will be evaluated holistically on both components. **Statistical reasoning and justification would be the focal points of your analysis and presentation. You will primarily be judged on how well you are able to provide statistical evidence and use statistical reasoning.** You will also be graded on the clarity, prioritization, and business-value of your presentation part as well as the accuracy of your predictive component.
 
+
+## The Data
+
+You can find the data [here](https://drive.google.com/drive/folders/1gEC4bbn9RDwlY8ewzPHMXn0LphJeDHi3?usp=sharing). The data is stored using `.parquet` file types, which are very efficient for large datasets such as ours. They can be easily read just like `.csv` into Python and R. 
+
+Please refer to the documentation for more information.
 
 ## Important Dates
 
