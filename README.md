@@ -32,7 +32,7 @@ Certificates will be given for the following categories:
 - Best Visualizations
 - Best Overall Project
 
-Teams will be judged by department faculty and graduate students. You will receive official certificates for the awards, and your team photos will be shared on our club’s social media pages. The team that wins **Best Overall Project** will earn spots on the UW–Madison team for MUDAC, a regional statistical analysis competition held in the spring, with full travel funding provided.
+Teams will be judged by department faculty and graduate students. You will receive official certificates for the awards, and your team photos will be shared on our club’s social media pages. The team that wins **Best Overall Project** will earn spots on the UW–Madison team for MUDAC, a regional statistical analysis competition, with full travel funding provided.
 
 
 ## Presentations:
