@@ -44,6 +44,12 @@ You will be provided with a masked portion of the business sub-dataset where the
 Your final submission will be evaluated holistically on both components. **Statistical reasoning and justification would be the focal points of your analysis and presentation. You will primarily be judged on how well you are able to provide statistical evidence and use statistical reasoning.** You will also be graded on the clarity, prioritization, and business-value of your presentation part as well as the accuracy of your predictive component.
 
 
+## The Data
+
+You can find the data [here](https://drive.google.com/drive/folders/1gEC4bbn9RDwlY8ewzPHMXn0LphJeDHi3?usp=sharing). The data is stored using `.parquet` file types, which are very efficient for large datasets such as ours. They can be easily read just like `.csv` into Python and R. 
+
+Please refer to the documentation for more information.
+
 ## Important Dates
 
 **February 23, 2026** Data Challenge Begins
