@@ -8,9 +8,13 @@ Each project is judged by the presentation, methodology, and written report. Tea
 
 ## Introduction to the Data Challenge
 
-This Data Challenge is centered around a dataset derived from the business review website Yelp. It contains detailed information on businesses, user reviews, ratings, check-ins, and engagement metrics across multiple cities. It includes structured business attributes (such as price range and amenities), textual and numerical review data, and user-level interaction signals such as “useful,” “funny,” and “cool” votes. Together, these components allow participants to analyze patterns in customer behavior, business characteristics, and engagement dynamics. 
+This semester’s Data Challenge is centered around statistical consulting. Statisticians are often asked to work in consulting roles on academic and business problems (for example, UW–Madison’s Statistical Consulting group), and in this challenge, you will step into that role.
 
-More specifically, you are given 5 datasets to work with: r
+You will act as a consultant for a business owner preparing to open a new restaurant. Using data from 6,990,280 reviews and 150,346 businesses across 11 metropolitan areas, your task is to help the owner make informed, evidence-based decisions before and after opening.
+
+Rather than focusing on a single question, this challenge is designed to reflect the kind of decisions consultants actually face: identifying which business attributes are most likely to matter, making predictions about post-opening performance, and communicating recommendations clearly to a non-technical client. In the final stage, you will translate your analysis into a concise dashboard, choosing the plots and metrics that best capture what a restaurant owner should pay attention to.
+
+This challenge emphasizes not only statistical analysis, but also prioritization, interpretation, and communication — all core parts of doing statistics in practice.
 
 ## Important Dates
 
