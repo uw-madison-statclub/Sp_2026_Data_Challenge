@@ -6,6 +6,12 @@ The Data Challenge is biannual event in which teams of participants are given a 
 
 Each project is judged by the presentation, methodology, and written report. Teams may earn substantial additional points for completing the optional prediction component through the development and evaluation of a predictive model. The emphasis of this Data Challenge is on clear explanations of the conclusions and the underlying methodology. Your presentation may also include any exploratory analysis of the dataset, potential weaknesses of your model or methodology, and/or future improvements you would make to your work.
 
+## Introduction to the Data Challenge
+
+This Data Challenge is centered around a dataset derived from the business review website Yelp. It contains detailed information on businesses, user reviews, ratings, check-ins, and engagement metrics across multiple cities. It includes structured business attributes (such as price range and amenities), textual and numerical review data, and user-level interaction signals such as “useful,” “funny,” and “cool” votes. Together, these components allow participants to analyze patterns in customer behavior, business characteristics, and engagement dynamics. 
+
+More specifically, you are given 5 datasets to work with: r
+
 ## Important Dates
 
 **February 23, 2026** Data Challenge Begins
