@@ -61,6 +61,30 @@ The requirements for the executive report are as follows:
 
   ## Submission
 
+  All submissions (including midpoint checkppoint, final, and presentation slides) must be made through the dedicated submission form here: https://docs.google.com/forms/d/e/1FAIpQLSc5cdUjYcT3i0Lcs2IuTwAH1-vzN9X7fhUYX2E4Z7c4-dy0Xw/viewform?usp=publish-editor
+
+  Submissions must be recieved by 11:59pm on the date they are due (or 6pm on 16th March in case of presentation slides). Late submissions will not be accepted out of fairness to all teams. Submit well ahead of time to avoid last minute technical issues.
+
+
+  ### Checkpoint submission
+
+  Submit ONE zipped folder with your team name in the file name containing the following:
+
+  - Exploratory Code Analysis
+  - A document explaining your code and findings so far. This does not have to be as polished as the final executive report
+ 
+  ### Final Submission
+
+  Submit ONE zipped folder with your team name in the file name containing the following:
+
+  - All of your code files
+  - Executive Report (PDF)
+  - requirements.txt (this text file should include all the external libraries/frameworks that your code uses)
+
+  
+
+  
+
 
   # Data Challenge Rubric (Spring 2026)
 
