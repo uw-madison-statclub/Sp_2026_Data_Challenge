@@ -8,7 +8,7 @@ Each project is judged by the presentation, methodology, and written report. Tea
 
 ## Introduction to the Data Challenge
 
-This semester’s Data Challenge is centered around statistical consulting. Statisticians are often asked to work in consulting roles on academic and business problems (for example, UW–Madison’s Statistical Consulting group), and in this challenge, you will step into that role.
+This semester’s Data Challenge is centered around statistical consulting. Statisticians are often asked to work in consulting roles on academic and business problems (for example, UW–Madison’s [Statistical Consulting group](https://stat.wisc.edu/statistical-consulting/)), and in this challenge, you will step into that role.
 
 You will act as a consultant for a business owner preparing to open a new restaurant. Using data from 6,990,280 reviews and 150,346 businesses across 11 metropolitan areas, your task is to help the owner make informed, evidence-based decisions before and after opening.
 
