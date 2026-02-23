@@ -130,6 +130,7 @@ The requirements for the executive report are as follows:
   - All of your code files
   - Executive Report (PDF)
   - requirements.txt (this text file should include all the external libraries/frameworks that your code uses)
+  - AI Tool Usage (PDF)
 
   
 
@@ -184,7 +185,7 @@ AI tools (e.g., ChatGPT, Copilot) are permitted under **standard academic integr
 However:  
 - If AI is used, your team must still be able to **explain, justify, and defend** all decisions made in your analysis.  
 - Failure to demonstrate understanding of your own work because of overreliance on AI will be considered a **serious penalty**. It will heavily impact the quality assessment of your project.
-- Teams must disclose any AI tools used in an appendix section of the report.
+- You must disclose any AI tools used, how you used it, and the prompts you entered, in a standalone document titled "AI Tool Usage".
 
 --- 
 ### Use of API Tools
