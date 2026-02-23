@@ -31,9 +31,13 @@ What to analyze for your presentation: What attributes do successful businesses 
 Alongside the dashboard, your presentation must provide a clear statistical justification explaining why you chose to keep those specific plots and numbers over all other possibilities. 
 
 ### Part 2: The Predictive Component
-To back up your consulting advice with rigorous statistics, you will also complete a predictive modeling task.
+To support your consulting recommendations with statistical evidence, you will develop a predictive model for business survival.
 
-You will be provided with a masked portion of the business sub-dataset where the closure status (whether the business is currently open or permanently closed) has been hidden. Your task is to build a model to predict if these specific businesses have closed down. 
+You will receive a subset of the business dataset in which the closure status (open vs. permanently closed) has been removed. Using the remaining information, your task is to predict whether each business in this subset is still operating.
+
+Your model should be built using features derived from the full dataset (e.g., star ratings, number of reviews, “useful,” “funny,” and “cool” votes, check-ins, tips, user activity, or other engineered variables). A central goal of this component is to determine which signals are most informative for predicting business closure and to evaluate their relative importance.
+
+You will train your model on 80% of the available labeled data and evaluate its performance on the remaining 20% test set. You should be able to clearly explain your modeling choices and performance metric(s).
 
 ### Evaluation & Final Grading
 Your final submission will be evaluated holistically on both components. **Statistical reasoning and justification would be the focal points of your analysis and presentation. You will primarily be judged on how well you are able to provide statistical evidence and use statistical reasoning.** You will also be graded on the clarity, prioritization, and business-value of your presentation part as well as the accuracy of your predictive component.
