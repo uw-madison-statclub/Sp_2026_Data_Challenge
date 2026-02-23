@@ -41,7 +41,7 @@ Your final submission will be evaluated holistically on both components. **Stati
 
 ## The Data
 
-You can find the data [here](https://drive.google.com/drive/folders/1gEC4bbn9RDwlY8ewzPHMXn0LphJeDHi3?usp=sharing). The datasets are stored using `.parquet` file types, which are very efficient for large datasets such as ours. They can be easily read just like `.csv` into Python and R. 
+You can find the data [here](https://drive.google.com/drive/folders/1gEC4bbn9RDwlY8ewzPHMXn0LphJeDHi3?usp=sharing). The datasets are stored using `.parquet` file types, which are very efficient for large datasets such as ours. They can be easily read just like `.csv` into Python and R environments. 
 
 The files are named as follows:
 - business_y_removed.parquet
