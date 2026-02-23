@@ -2,7 +2,7 @@
 
 ## Foreword
 
-The Data Challenge is biannual event in which teams of participants are given a dataset to analyze and make predictions about. This event provides an opportunity for students to gain practice in working with real data, conducting a meaningful and rigorous analysis, and communicating the results clearly and concisely.
+The Data Challenge is a biannual event in which teams of participants are given a dataset to analyze and make predictions about, along with a series of guiding questions to orient the analysis. This event provides an opportunity for students to gain practice in working with real data, conducting a meaningful and rigorous analysis, and communicating the results clearly and concisely.
 
 Each project is judged by the presentation, methodology, and written report. Teams may earn substantial additional points for completing the optional prediction component through the development and evaluation of a predictive model. The emphasis of this Data Challenge is on clear explanations of the conclusions and the underlying methodology. Your presentation may also include any exploratory analysis of the dataset, potential weaknesses of your model or methodology, and/or future improvements you would make to your work.
 
@@ -10,16 +10,11 @@ Each project is judged by the presentation, methodology, and written report. Tea
 
 This semester’s Data Challenge is centered around statistical consulting. Statisticians are often asked to work in consulting roles on academic and business problems (for example, UW–Madison’s [Statistical Consulting group](https://stat.wisc.edu/statistical-consulting/)), and in this challenge, you will step into that role.
 
-You will act as a consultant for a business owner preparing to open a new business. Using data from 6,990,280 reviews and 150,346 businesses across 11 metropolitan areas, your task is to help the owner make informed, evidence-based decisions before and after opening.
+You will act as a data consultant for a business owner preparing to open a new business. Using a comprehensive business and customer review dataset comprising 5 files containing close to 7 million reviews and 150 thousand businesses across multiple metropolitan areas, your task is to help the owner make informed, evidence-based decisions before and after their grand opening.
 
 Rather than focusing on a single question, this challenge is designed to reflect the kind of decisions consultants actually face: identifying which business attributes are most likely to matter, making predictions about post-opening performance, and communicating recommendations clearly to a non-technical client. In the final stage, you will translate your analysis into a concise dashboard, choosing the plots and metrics that best capture what a business owner should pay attention to.
 
 This challenge emphasizes not only statistical analysis, but also prioritization, interpretation, and communication — all core parts of doing statistics in practice.
-
-## Problem Statement
-
-You will act as a data consultant for a business owner preparing to open a new business. Using a comprehensive business and customer review dataset comprising 5 JSON files containing close to 7 million reviews and 150 thousand businesses across multiple metropolitan areas, your task is to help the owner make informed, evidence-based decisions before and after their grand opening.
-
 
 ### Part 1: The Client Presentation & Dashboard (Presentation)
 
@@ -31,14 +26,14 @@ Your dashboard is strictly constrained to:
 
 - A maximum of 5 key metrics that you believe are most helpful to business owners
 
-What to analyze for your presentation: What attributes do successful businesses share? You must decide exactly what information is most critical for a business owner to monitor to be successful. We recommend comparing businesses with similar characteristics to isolate the specific attributes that correlate with higher survival rates and better reviews.
+What to analyze for your presentation: What attributes do successful businesses share? You must decide exactly what information is most critical for a business owner to monitor to be successful. Teams must define and justify what constitutes “success.” We recommend comparing businesses of similar types and with similar characteristics to isolate the specific attributes that correlate with higher survival rates and better reviews.
 
 Alongside the dashboard, your presentation must provide a clear statistical justification explaining why you chose to keep those specific plots and numbers over all other possibilities. 
 
 ### Part 2: The Predictive Component
 To back up your consulting advice with rigorous statistics, you will also complete a predictive modeling task.
 
-You will be provided with a masked portion of the business sub-dataset where the closure status (whether the business is currently open or permanently closed) has been hidden. Your task is to build a model to predict if these specific businesses have closed down.
+You will be provided with a masked portion of the business sub-dataset where the closure status (whether the business is currently open or permanently closed) has been hidden. Your task is to build a model to predict if these specific businesses have closed down. 
 
 ### Evaluation & Final Grading
 Your final submission will be evaluated holistically on both components. **Statistical reasoning and justification would be the focal points of your analysis and presentation. You will primarily be judged on how well you are able to provide statistical evidence and use statistical reasoning.** You will also be graded on the clarity, prioritization, and business-value of your presentation part as well as the accuracy of your predictive component.
@@ -46,7 +41,14 @@ Your final submission will be evaluated holistically on both components. **Stati
 
 ## The Data
 
-You can find the data [here](https://drive.google.com/drive/folders/1gEC4bbn9RDwlY8ewzPHMXn0LphJeDHi3?usp=sharing). The data is stored using `.parquet` file types, which are very efficient for large datasets such as ours. They can be easily read just like `.csv` into Python and R. 
+You can find the data [here](https://drive.google.com/drive/folders/1gEC4bbn9RDwlY8ewzPHMXn0LphJeDHi3?usp=sharing). The datasets are stored using `.parquet` file types, which are very efficient for large datasets such as ours. They can be easily read just like `.csv` into Python and R. 
+
+The files are named as follows:
+- business_y_removed.parquet
+- review.parquet
+- user.parquet
+- checkin.parquet
+- tip.parquet
 
 Please refer to the documentation for more information.
 
@@ -177,7 +179,8 @@ AI tools (e.g., ChatGPT, Copilot) are permitted under **standard academic integr
 
 However:  
 - If AI is used, your team must still be able to **explain, justify, and defend** all decisions made in your analysis.  
-- Failure to demonstrate understanding of your own work because of overreliance on AI will be considered a **serious penalty**. It will heavily impact the quality assessment of your project.  
+- Failure to demonstrate understanding of your own work because of overreliance on AI will be considered a **serious penalty**. It will heavily impact the quality assessment of your project.
+- Teams must disclose any AI tools used in an appendix section of the report.
 
 --- 
 ### Use of API Tools
