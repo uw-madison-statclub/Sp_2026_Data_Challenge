@@ -22,7 +22,7 @@ Your statistical analysis is only as good as your ability to communicate it. You
 
 Your dashboard is strictly constrained to:
 
-- A maximum of 5 plots/visualizations
+- A maximum of 8 plots/visualizations
 
 - A maximum of 5 key metrics that you believe are most helpful to business owners
 
