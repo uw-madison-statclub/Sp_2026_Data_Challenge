@@ -18,7 +18,7 @@ This challenge emphasizes not only statistical analysis, but also prioritization
 
 ### Part 1a: `Attribute` Selection
 
-The restaurant buildout came in under budget, and the restaurant owner is asking which `attributes` would be most beneficial to add with the remaining funds. For practical purposes, you should imagine that you don't have any of the `attributes` already and they are all equally feasible to add. The budget allows for the addition of up to 5 `attributes`.
+**Before opening**, the restaurant buildout came in under budget, and the restaurant owner is asking which `attributes` would be most beneficial to add with the remaining funds. For practical purposes, you should imagine that you don't have any of the `attributes` already and they are all equally feasible to add. The budget allows for the addition of up to 5 `attributes`.
 
 Your first task is to help the restaurant owner select `attributes` that successful restaurants share (and determine what succeful even means). You must decide exactly which `attributes` would provide the most value, and back up with statistical analysis the ones you determine. 
 
