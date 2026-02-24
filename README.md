@@ -10,15 +10,24 @@ Each project is judged by the presentation, methodology, and written report. Tea
 
 This semester’s Data Challenge is centered around statistical consulting. Statisticians are often asked to work in consulting roles on academic and business problems (for example, UW–Madison’s [Statistical Consulting group](https://stat.wisc.edu/statistical-consulting/)), and in this challenge, you will step into that role.
 
-You will act as a data consultant for a business owner preparing to open a new business. Using a comprehensive business and customer review dataset comprising 5 files containing close to 7 million reviews and 150 thousand businesses across multiple metropolitan areas, your task is to help the owner make informed, evidence-based decisions before and after their grand opening.
+You will act as a data consultant for a business owner preparing to open a new **restaurant**. Using a comprehensive business and customer review dataset comprising 5 files containing close to 7 million reviews and 150 thousand businesses across multiple metropolitan areas, your task is to help the restaurant owner make informed, evidence-based decisions before and after their grand opening.
 
 Rather than focusing on a single question, this challenge is designed to reflect the kind of decisions consultants actually face: identifying which business attributes are most likely to matter, making predictions about post-opening performance, and communicating recommendations clearly to a non-technical client. In the final stage, you will translate your analysis into a concise dashboard, choosing the plots and metrics that best capture what a business owner should pay attention to.
 
 This challenge emphasizes not only statistical analysis, but also prioritization, interpretation, and communication — all core parts of doing statistics in practice.
 
-### Part 1: The Client Presentation & Dashboard (Presentation)
+### Part 1a: `Attribute` Selection
 
-Your statistical analysis is only as good as your ability to communicate it. Your primary deliverable is a presentation centered around a concise informative "dashboard" designed specifically for your non-technical client. 
+Your first task is to help the restaurant owner select `attributes` that successful restaurants share. You must decide exactly which `attributes` are most critical for a restaurant owner to monitor to be successful, thus determining which attributes the restaurant owner incorporates into his restaurant **before opening**. Teams must define and justify what constitutes “success,” in this case.
+
+**Note that 'attributes' is a feature in the dataset.**
+
+### Part 1b: Dashboard
+
+Your statistical analysis is only as good as your ability to communicate it. Your primary deliverable is a concise, informative "dashboard" designed specifically for your new restaurant-owner client. This is meant to be a tool for the restaurant owner to utilize **after the restaurant has been opened**.
+
+Here is an example of a good dashboard:
+<img width="1451" height="856" alt="image" src="https://github.com/user-attachments/assets/79ca7097-7fd2-4075-bb43-b57bf763dd52" />
 
 Your dashboard is strictly constrained to:
 
@@ -26,9 +35,9 @@ Your dashboard is strictly constrained to:
 
 - A maximum of 5 key metrics that you believe are most helpful to business owners
 
-What to analyze for your presentation: What attributes do successful businesses share? You must decide exactly what information is most critical for a business owner to monitor to be successful. Teams must define and justify what constitutes “success.” We recommend comparing businesses of similar types and with similar characteristics to isolate the specific attributes that correlate with higher survival rates and better reviews.
+To be clear, you do not have to include the maximum number of plots or metrics in your dashboard. Readability is an important aspect of any good dashboard. Further, you may include as many metrics and plots as you would like in your slide deck.
 
-Alongside the dashboard, your presentation must provide a clear statistical justification explaining why you chose to keep those specific plots and numbers over all other possibilities. 
+Alongside the dashboard, your presentation must provide a clear statistical justification explaining why you chose to keep those specific plots and metrics over all others. 
 
 ### Part 2: The Predictive Component
 To support your consulting recommendations with statistical evidence, you will develop a predictive model for business survival.
